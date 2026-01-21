@@ -1,7 +1,4 @@
 # DevOps Learning Resources Guide 2025
-
-A comprehensive collection of high-quality learning materials for each phase of your DevOps journey.
-
 ---
 
 ## Phase 1: Foundation (1-2 months)
@@ -442,11 +439,8 @@ The key to success in DevOps isn't memorizing every tool—it's understanding **
 3. **Understanding fundamentals** over chasing trends
 4. **Building real projects** over collecting certificates
 
-Start with Phase 1 today. The best time to learn DevOps was yesterday; the second-best time is now.
-
 Good luck on your DevOps journey! 🚀
 
 ---
 
 *Last Updated: January 2026*
-*For questions or updates, contribute to this guide on GitHub*
