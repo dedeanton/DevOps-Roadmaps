@@ -1,0 +1,35 @@
+sequenceDiagram
+    autonumber
+    participant Learner
+    participant Phase1 as Phase 1: Foundation
+    participant Phase2 as Phase 2: Cloud Basics
+    participant Phase3 as Phase 3: IaC
+    participant Phase4 as Phase 4: Containerization
+    participant Phase5 as Phase 5: CI/CD
+    participant Phase6 as Final: Observability
+    
+    Learner->>Phase1: Start DevOps Journey
+    Note right of Phase1: Focus: Linux fundamentals,<br/>Bash scripting, Git<br/><br/>Most DevOps systems run on Linux<br/>Strong foundation is mandatory<br/>Duration: 1–2 months
+    Phase1-->>Learner: Solid OS & Version Control Skills
+    
+    Learner->>Phase2: Learn Cloud Basics
+    Note right of Phase2: Cloud Providers: AWS (recommended),<br/>Azure, GCP, Oracle, Alibaba<br/><br/>Learn compute, storage, networking<br/>Focus on 5 core services only<br/>Hands-on projects > certifications<br/>Duration: 1–2 months
+    Phase2-->>Learner: Cloud Infrastructure Understanding
+    
+    Learner->>Phase3: Infrastructure as Code
+    Note right of Phase3: Tools: Terraform, Pulumi<br/><br/>Understand IaC concepts & purpose<br/>Practice provisioning cloud infra<br/>Solve real infrastructure problems<br/>Duration: ~1 month
+    Phase3-->>Learner: Automated Infrastructure Provisioning
+    
+    Learner->>Phase4: Containerization
+    Note right of Phase4: Technologies: Docker,<br/>Kubernetes (Orchestration)<br/><br/>Focus on core 20% features<br/>Covers 80% of real use cases<br/>Duration: 1–2 months
+    Phase4-->>Learner: Scalable Containerized Applications
+    
+    Learner->>Phase5: Build CI/CD Pipelines
+    Note right of Phase5: Tools: Jenkins, GitHub Actions,<br/>GitLab CI<br/><br/>Understand CI/CD concepts deeply<br/>Pick ONE tool and master it<br/>Build end-to-end pipelines<br/>Duration: 1–2 months
+    Phase5-->>Learner: Automated Build & Deployment
+    
+    Learner->>Phase6: Learn Observability
+    Note right of Phase6: Tools: Prometheus, Grafana<br/><br/>Monitoring & metrics basics<br/>Essential for production systems<br/>Duration: ~1 month
+    Phase6-->>Learner: Production-Ready DevOps Engineer
+    
+    Note over Learner: Key Advice: Avoid learning tools in isolation<br/>Combine tools into real projects<br/>Avoid shallow tutorials<br/>Practice continuously<br/>Identify and close knowledge gaps

@@ -1,0 +1,37 @@
+%% 
+sequenceDiagram
+    autonumber
+
+    participant Learner
+    participant Phase1 as Phase 1: Foundation
+    participant Phase2 as Phase 2: Cloud Basics
+    participant Phase3 as Phase 3: IaC
+    participant Phase4 as Phase 4: Contaainerization
+    participant Phase5 as Phase 5: CI/CD
+    participant Phase6 as Final: Observability
+
+    Learner->>Phase1: Start DevOps Journey
+    note right of Phase1: Focus:\n- Linux fundamentals\n- Bash scripting\n- Git (version control)\n\nNotes:\n- Most DevOps systems run on Linux\n- Strong foundation is mandatory\n- Duration: 1–2 months
+    Phase1-->>Learner: Solid OS & Version Control Skills
+
+    Learner->>Phase2: Learn Cloud Basics
+    note right of Phase2: Cloud Providers:\n- AWS (recommended)\n- Azure\n- GCP\n- Oracle\n- Alibaba\n\nNotes:\n- Learn compute, storage, networking first\n- Focus on 5 core services only\n- Hands-on projects > certifications\n- Duration: 1–2 months
+    Phase2-->>Learner: Cloud Infrastructure Understanding
+
+    Learner->>Phase3: Infrastructure as Code
+    note right of Phase3: Tools:\n- Terraform\n- Pulumi\n\nNotes:\n- Understand IaC concepts & purpose\n- Practice provisioning cloud infrastructure\n- Solve real infrastructure problems\n- Duration: ~1 month
+    Phase3-->>Learner: Automated Infrastructure Provisioning
+
+    Learner->>Phase4: Containerization
+    note right of Phase4: Technologies:\n- Docker\n- Kubernetes (container orchestration)\n\nNotes:\n- Focus on core 20% features\n- Covers 80% of real use cases\n- Duration: 1–2 months
+    Phase4-->>Learner: Scalable Containerized Applications
+
+    Learner->>Phase5: Build CI/CD Pipelines
+    note right of Phase5: Tools:\n- Jenkins\n- GitHub Actions\n- GitLab CI\n\nNotes:\n- Understand CI/CD concepts deeply\n- Pick ONE tool and master it\n- Build end-to-end pipelines\n- Deploy to containerized systems\n- Duration: 1–2 months
+    Phase5-->>Learner: Automated Build & Deployment
+
+    Learner->>Phase6: Learn Observability
+    note right of Phase6: Tools:\n- Prometheus\n- Grafana\n\nNotes:\n- Monitoring & metrics basics\n- Essential for production systems\n- Duration: ~1 month
+    Phase6-->>Learner: Production-Ready DevOps Engineer
+
+    note over Learner: Key Advice:\n- Avoid learning tools in isolation\n- Combine tools into real projects\n- Avoid shallow tutorials\n- Practice continuously\n- Identify and close knowledge gaps
